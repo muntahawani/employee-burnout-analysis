@@ -117,6 +117,5 @@ plt.show()
 # ---------------------------
 joblib.dump(lr, "models/lr_model.pkl")
 joblib.dump(rf, "models/rf_model.pkl")
-joblib.dump(xgb, "models/xgb_model.pkl")
-
+joblib.dump(xgb, "backend/models/xgb_model.pkl")
 print("\nAll models saved successfully.") 
